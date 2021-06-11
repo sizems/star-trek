@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Nova_Light_Ultra";
+    src: url('/assets/fonts/Nova_Light_Ultra.ttf')
+}
+
+#container {
+  background-color: #46616e;
+  padding-top: 60px;
+}
+
+table {
+  background-color: #99ccff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.info {
+  font-family: "Nova_Light_Ultra";
+  font-size: 26px;
+  width: 451px;
+}
