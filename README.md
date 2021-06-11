@@ -1,17 +1,9 @@
-Project Overview
-This will be a database of Star Trek ships, their crews, and other details.
+# Overview
+Baby's first real Angular app. This was made as a project for a coding bootcamp. It serves as a (very incomplete) database of noteable ships from the various Star Trek series, as well as crew manifests for the Federation ships.
 
-Purpose
-The purpose of this app is for entertainment. Some of the other ideas I had seemed to be too simple or boring. This is a topic that can easily be scaled as time/difficulty allows and will still allow me to have fun and show a bit of personality.
+# Project Layout
+The app is primarily categorized by Governments. The Federation category has additional pages detailing the crew members of the various ships.
+Most of the data is hard-coded into the Angular app. There is some experimentation with Spring Boot and SQL, but those areas are not complete.
 
-Project Layout
-The navbar/header will contain the different governments (Federation, Klingon, Romulan, etc) that, when clicked, will produce a list of ships registered to that government (Ships component). The ship names can then be clicked to view crew members (Crew component). If time permits I will also add a feature to view photos and a short bio of the crew members (Bio component).
-
-Technologies
-I plan on primarily using TypeScript/Angular for the basic construction of the site. Details and design components will be added with CSS, JavaScript/JQuery, and HTML.
-
-Approach
-Separating the components by Governments, then Ships, then Crew seemed to make the most sense since they are easily broken down in that way. I wanted each of those to be their own component so that viewers can easily switch between items in the same category.
-
-MVP
-I am just starting to build the wireframe for this application but ideally, I would like to flesh it out with a sleek design, images, and possibly animations on click/transition between components.
+# Running the App
+The app is not currently running online. This repo can be downloaded and running the command "ng serve -o" from inside the main folder will launch the app in a browser window.
